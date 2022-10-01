@@ -1,5 +1,5 @@
 const Notification = (props) => {
-  const { imageUrl, text, textContent, className } = props;
+  const { imgUrl, text, textContent, className } = props;
 
   return (
     <div className={`card-container ${className}`}>
